@@ -21,7 +21,7 @@ function setup()
 {
 	createCanvas(800, 750);
 
-	Music.loop();
+	Music.playSound();
 
 	fairy = createSprite(175,550);
 	fairy.addAnimation("fairy_flying_ANI",fairyAni);
